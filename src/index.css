@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	padding: 0;
+	margin: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	background: linear-gradient(to right, #2b2d3f, #503b3b);
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 5px;
+	margin-left: 75px;
+	padding-bottom: 5px;
+	color: rgb(241, 241, 241);
+}
+h3,.loading {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 75px;
+	margin-top: 10px;
+	color: rgb(241, 241, 241);
+}
+input {
+	padding: 3px;
+	width: 25%;
+	font-size: 0.9em;
+	outline: none;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	background-color: white;
+	border-color: #505374;
+	margin-left: 75px;
+}
+.card-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: auto;
+}
+.card {
+	border: 1px solid grey;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 10px;
+	width: 205px;
+	display: inline-block;
+}
+.card p {
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(241, 241, 241);
+}
+.card img {
+	width: 205px;
+	height: 205px;
 }
