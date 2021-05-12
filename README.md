@@ -1,3 +1,3 @@
 GifExpertApp
 
-Una pequeña aplicacion para buscar gifs.
+A small application to find gifs.
